@@ -1,0 +1,37 @@
+body {
+    background-color: paleturquoise;
+}
+
+.myDiv {
+    width: 1000px;
+    margin: 0px auto;
+    border: 10px dotted purple;
+    background-color: lightblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: purple;
+}
+
+ul.nav li {
+    float: left;
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+ul.nav li a:hover {
+    background-color: navy;
+}

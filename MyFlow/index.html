@@ -6,15 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arushi's Flow</title>
+    <link rel="stylesheet" href="css/style.css">
 
 
     <style>
         h2 {
-            border: 4px dotted blue;
-        }
-        
-        body {
-            background-color: peachpuff;
+            border: 4px dashed #0000ff;
         }
         
         p {
@@ -26,6 +23,14 @@
             color: rgba(255, 0, 221, 0.295);
         }
         
+        #purpletext {
+            color: purple
+        }
+        
+        #indigotext {
+            color: indigo
+        }
+        
         .medium-text {
             font-size: 20px;
         }
@@ -34,16 +39,29 @@
 </head>
 
 <body>
-    <h2 style="color:blue;text-align:center">I like listening to...</h2>
-    <ul>
-        <li id="pinktext">Pop</li>
-        <li>Rock</li>
-        <li>Hip Hop</li>
-    </ul>
-    <h1 class="medium-text">I am in the flow when I listen to music</h1>
-    <p>When I am vibing to music no one can disturb me. I am completely oblvious to what is going on when I am just in the zone.</p>
-    <a style="color:darkred;font-size:xx-large" href="https://www.spotify.com/us/" target="_blank"> This is a link that takes you to the spotify website which is the app I use to listen to music! </a>
-    <img id="borderimg" src="music.jpg" width="200" height="200">
+    <div class="myDiv">
+        <ul class="nav">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="gallery.html">Gallery</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+        <h2 style="color:blue;text-align:center">I like listening to...</h2>
+        <ul>
+            <li id="pinktext">Pop</li>
+            <li id="purpletext">Rock</li>
+            <li id="indigotext">Hip Hop</li>
+        </ul>
+        <h1 class="medium-text">I am in the flow when I listen to music</h1>
+        <p>When I am vibing to music no one can disturb me. I am completely oblvious to what is going on when I am just in the zone.</p>
+        <a style="color:darkred;font-size:x-large" href="https://www.spotify.com/us/" target="_blank"> This is a link that takes you to the spotify website which is the app I use to listen to music! </a>
+        <img src="music.jpg" alt="headphones" width="200" height="200">
+    </div>
 </body>
 
 </html>
