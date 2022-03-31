@@ -19,10 +19,12 @@ ul.nav {
     padding: 0;
     overflow: hidden;
     background-color: purple;
+    text-align: center;
 }
 
 ul.nav li {
-    float: left;
+    /**float: left;**/
+    display: inline-block;
 }
 
 ul.nav li a {
