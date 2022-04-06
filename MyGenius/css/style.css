@@ -67,3 +67,7 @@ ol {
 a {
     color: navy
 }
+
+img {
+    border: 10px groove rgb(238, 215, 168);
+}
