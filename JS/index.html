@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+
+<body>
+    <h1>Let's learn javascript!</h1>
+    <h2>How do we do onclick events and alerts?</h2>
+    <a href="https://www.eastsideprep.org/" target="_blank" onclick="alert('Warning! You are navigating away from my page')">go to my school's website</a>
+    <!--Challenge #1: do your own link with alert-->
+    <a href="https://www.youtube.com/" target="_blank" onclick="alert('Warning! You are visiting the deep dark web')">THE DARK WEB</a>
+
+
+    <h2>How do I change HTML content with javascript?</h2>
+    <h2>What's my secret identity?</h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementById('secret').innerHTML='nana nana Batman!';document.getElementById('secret').style.display='block'">Reveal!</button>
+    <button onclick="document.getElementById('secret').style.display='none'">Hide!</button>
+    <!--Challenge #2: do your own 2 truths and a lie-->
+    <h2>Let's play two truths and a lie. Guess the lie!</h2>
+    <ol>I have eaten squid before</ol>
+    <ol>I climbed up a waterfall</ol>
+    <ol>I hate chocolate</ol>
+    <p id="answer"></p>
+    <button onclick="document.getElementById('answer').innerHTML='1.I have eaten squid before';document.getElementById('answer').style.display='block'">Reveal!</button>
+    <button onclick="document.getElementById('answer').style.display='none'">Hide!</button>
+
+
+    <h2>How do we change an image with javascript?</h2>
+    <img src="Images/Bulboff.gif" alt="Bulb Off" id="bulb" width="200" height="300">
+    <button onclick="document.getElementById('bulb').src='Images/Bulbon.gif'">Turn on light</button>
+    <!--Challenge #3: implement off light button-->
+    <button onclick="document.getElementById('bulb').src='Images/Bulboff.gif'">Turn off light</button>
+
+
+    <h2>How do we change css styles with functions?</h2>
+    <p id="alice">Hi. I am Alice</p>
+    <button onclick="shrinkAlice()">Cake: eat me</button>
+    <!--Challenge #4: implement drink me button (increase font size and change color)-->
+    <button onclick="growAlice()">Potion: drink me</button>
+
+    <script>
+        function shrinkAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color = 'blue'
+            aliceParagraph.style.fontSize = '10px'
+        }
+
+        function growAlice() {
+            let aliceParagraph = document.getElementById('alice');
+            aliceParagraph.style.color = 'red'
+            aliceParagraph.style.fontSize = '30px'
+        }
+    </script>
+
+    <!--NEW CSS-->
+    <p id="cursor">Place your mouse over this text below and after you click the button below to see the difference.</p>
+    <button type="button" onclick="myFunction()">Change cursor</button>
+
+    <script>
+        function myFunction() {
+            document.getElementById("cursor")
+                .style.cursor = "pointer";
+        }
+    </script>
+
+    <!--NEW CSS-->
+    <p>Changing background colors with CSS</p>
+    <button type="button" onclick="changeBackground()"> Click to change background color</button>
+
+    <script>
+        function changeBackground() {
+            document.body.style.backgroundColor = "lightblue"
+        }
+    </script>
+</body>
+
+</html>
