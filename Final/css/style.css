@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(247, 162, 111);
+}
+
+.myDiv {
+    width: auto;
+    margin: 0px auto;
+    border: 10px dotted rgb(181, 101, 75);
+    background-color: rgb(237, 206, 169);
+    padding-top: auto;
+    padding-right: auto;
+    padding-bottom: auto;
+    padding-left: auto;
+}
+
+p {
+    font-family: tablet-gothic, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(181, 101, 75)
+}
+
+h1 {
+    font-family: tomarik-display-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(181, 101, 75)
+}
+
+h2 {
+    font-family: tomarik-display-line, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-family: tablet-gothic-semi-condensed, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 401px 401px 401px;
+    grid-gap: 10px;
+    padding-left: 10px;
+}
+
+.grid-item {
+    background-color: rgb(247, 162, 111);
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(181, 101, 75);
+    text-align: center;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(181, 101, 75);
+    text-align: center;
+}
+
+ul.nav li {
+    /**float: left;**/
+    display: inline-block;
+}
+
+ul.nav li a {
+    display: block;
+    color: rgb(237, 206, 169);
+    text-align: center;
+    padding: 14px 16px;
+}
+
+ul.nav li a:hover {
+    background-color: rgb(247, 162, 111);
+}
