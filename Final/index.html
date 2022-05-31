@@ -171,31 +171,36 @@
             <div class="grid-item signup">
                 <h3>Newsletter Signup</h3>
                 <p>Sign up today to get notified on future events!</p>
-                <p>Name:</p>
-                <p>Email Address:</p>
-                <p>Submit:</p>
+                <form action="/action_page.php">
+                    <label for="fname">Name:</label>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="lname">Email:</label>
+                    <input type="text" id="email" email="email"><br><br>
+                </form>
+                <p id="Submit"></p>
+                <button onclick=" document.getElementById( 'Submit').innerHTML='Thanks for signing up! You will now get notified on upcoming events!' ;document.getElementById( 'Submit').style.display='block' ">Submit!</button>
             </div>
-            <div class="grid-item calendar">
+            <div class="grid-item calendar ">
                 <h2>Calendar:</h2>
-                <div class="mainimg">
-                    <div id="demo2" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
+                <div class="mainimg ">
+                    <div id="demo2 " class="carousel slide " data-bs-ride="carousel ">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active ">
                                 <h3>May Events</h3>
-                                <img src="Images/may.png" alt="May Events" class="d-block w-100">
+                                <img src="Images/may.png " alt="May Events " class="d-block w-100 ">
                             </div>
-                            <div class="carousel-item">
+                            <div class="carousel-item ">
                                 <h3>June Events</h3>
-                                <img src="Images/june.png" alt="June Events" class="d-block w-100">
+                                <img src="Images/june.png " alt="June Events " class="d-block w-100 ">
                             </div>
 
                         </div>
                         <!--Carousel controls-->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
+                        <button class="carousel-control-prev " type="button " data-bs-target="#demo2 " data-bs-slide="prev ">
+                <span class="carousel-control-prev-icon "></span>
               </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
+                        <button class="carousel-control-next " type="button " data-bs-target="#demo2 " data-bs-slide="next ">
+                <span class="carousel-control-next-icon "></span>
               </button>
                     </div>
                 </div>
@@ -204,12 +209,12 @@
         </div>
 
     </div>
-    <div class="footer">
+    <div class="footer ">
         <footer>Socials: follow us @
-            <a href="https://www.facebook.com/brickandmortarbooks/" href="#" class="fa fa-facebook" target="_blank"></a>
+            <a href="https://www.facebook.com/brickandmortarbooks/ " href="# " class="fa fa-facebook " target="_blank "></a>
 
-            <a href="https://www.instagram.com/accounts/login/?next=/brick_and_mortar_books/" href="#" class="fa fa-instagram" target="_blank"></a>
-            <a href="https://twitter.com/BrckMrtrBooks" href="#" class="fa fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/accounts/login/?next=/brick_and_mortar_books/ " href="# " class="fa fa-instagram " target="_blank "></a>
+            <a href="https://twitter.com/BrckMrtrBooks " href="# " class="fa fa-twitter " target="_blank "></a>
         </footer>
     </div>
 </body>
